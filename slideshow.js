@@ -1,4 +1,4 @@
-//
+//zyy 2018-05-05
 // 给前后浏览按钮绑定事件
 var bindEventSlide = () => {
     var selector = '.zyy-slide-button'
