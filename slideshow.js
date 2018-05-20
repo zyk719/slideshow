@@ -1,4 +1,5 @@
-//
+// 导入自定义的模块
+import {log, e, es, bindAll, bindEvent, removeClassAll, changeCss} from './zyy'
 // 给前后浏览按钮绑定事件
 var bindEventSlide = () => {
     var selector = '.zyy-slide-button'
@@ -68,7 +69,7 @@ var playNextImage = (num) => {
 
 // 自动播放图片
 var autoPlay = () => {
-    var interval = 2000
+    var interval = 3000
     var clockId = setInterval(() => {
         playNextImage(1)
     }, interval)
