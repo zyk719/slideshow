@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 // 导入自定义的模块
 import {log, e, es, bindAll, bindEvent, removeClassAll, changeCss} from './zyy'
+=======
+//zyy 2018-05-05
+>>>>>>> 11ebf76b9340cb51760534924d539547520e4ba0
 // 给前后浏览按钮绑定事件
 var bindEventSlide = () => {
     var selector = '.zyy-slide-button'
